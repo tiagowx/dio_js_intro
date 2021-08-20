@@ -1,3 +1,52 @@
+function clicou () {
+    document.getElementById('gradidao').innerHTML = "<b>Obrigado por clicar</b>";
+    //alert("Obrigado por clicar")
+}
+
+function redirecionar () {
+    window.open("http://web.digitalinnovation.one"); // Abre uma pagina em uma nova janela
+    //window.location.href = "http://www.digitalinnovation.one";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Hover ativado";
+}
+
+function voltar (elemento){
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function change (elemento) {
+    console.log (elemento.value)
+}
+
+/*
+// Funções
+
+function validarIdade (idade) {
+    if (idade >=18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+var idade = prompt("Qual sua idade?");
+
+if (!validarIdade(idade))  
+    alert("Conteúdo não recomendado para você!")
+else
+    alert("Aproveite o conteúdo!!")
+*/
+
+/*
+function soma(n1, n2) {
+    return n1 + n2;
+} 
+console.log(soma(5,3))
+*/
+
+/*
 var d = new Date(); // Atribui a data e hora atual a variável
 alert(d);
 alert(d.getDay()+1); // retorna o indice referente ao dia da semana
@@ -5,6 +54,7 @@ alert(d.getHours()); // retorna a hora atual a variável
 alert(d.getTime());  // retorna o a data e hora em milisegundos
 alert(Date.now()); // retorna o data e hora atual em milisegundos
 alert(d.getTime() - Date.now());
+*/
 
 /*
 for (var i = 0; i < 5; i++) { // Para unidade contada execute
