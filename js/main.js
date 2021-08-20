@@ -1,5 +1,41 @@
-var frutas = [{nome: "maçã", cor: "vermelha"},{nome: "uva", cor: "roxa"}]; // array de Objetos para
-console.log(frutas[1].nome);
+var d = new Date(); // Atribui a data e hora atual a variável
+alert(d);
+alert(d.getDay()+1); // retorna o indice referente ao dia da semana
+alert(d.getHours()); // retorna a hora atual a variável
+alert(d.getTime());  // retorna o a data e hora em milisegundos
+alert(Date.now()); // retorna o data e hora atual em milisegundos
+alert(d.getTime() - Date.now());
+
+/*
+for (var i = 0; i < 5; i++) { // Para unidade contada execute
+    alert(i);
+}  */
+
+
+/*
+var count = 0;
+
+do { // Execute 
+    count++;
+    alert(count);
+} while (count<=5);  // Pare se for verdadeiro
+*/
+/* var count = 0;
+while (count <=5) { // Enquanto for verdadeiro execute
+    alert(count);
+    count++;
+}*/
+
+/*var idade = prompt("Qual sua idade?");
+
+if (idade >= 18) {
+    alert("Maior de idade.")
+} else{
+    alert("Menor de idade.")
+}*/
+
+/*var frutas = [{nome: "maçã", cor: "vermelha"},{nome: "uva", cor: "roxa"}]; // array de Objetos para
+console.log(frutas[1].nome);*/
 
 
 /* Objeto 
