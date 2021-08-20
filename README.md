@@ -1,2 +1,2 @@
 # dio_js_intro
-Intodução a linguagem Javascripts do boot camp da Digital Inovation One
+Intodução a linguagem Javascripts do bootcamp da Digital Inovation One
